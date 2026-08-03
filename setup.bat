@@ -1,0 +1,1 @@
+pyinstaller --uac-admin --add-data ".venv\Lib\site-packages\pyfiglet\fonts;pyfiglet/fonts" --onefile --name Flicker --icon="NONE" --clean main.py
